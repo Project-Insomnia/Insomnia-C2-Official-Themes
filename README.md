@@ -4,7 +4,6 @@ Official themes for Insomnia C2 framework
 
 ## Available Themes
 
-- 1990
 - Candy Dream
 - Cassette Futurism
 - Catppuccin Mocha
@@ -14,6 +13,7 @@ Official themes for Insomnia C2 framework
 - Futuristic Mecha
 - Kanagawa Dragon
 - Midnight Lofi
+- Retro Terminal 1990
 - Polaroid Light
 - Rose Pine Dawn
 - Simple Dark
