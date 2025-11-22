@@ -30,7 +30,7 @@
         "float3_2": [238, 130, 238, 0.15],
         "float3_3": [135, 206, 250, 0.15],
         "success": "#00CED1",
-        "warning": "#FFD700",
+        "warning": "#FFE100",
         "error": "#FF69B4"
     },
     "palette": {
