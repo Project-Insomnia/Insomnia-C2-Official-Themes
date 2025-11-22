@@ -13,7 +13,7 @@
         "inputBorder": [0, 0, 0, 1],
         "inputPlaceholder": [100, 100, 100, 0.5],
         "focus": [221, 160, 221, 1],
-        "accent": [221, 160, 221, 1],
+        "accent": [191, 161, 221, 1],
         "link": "#FF69B4",
         "linkHover": "#FF1493",
         "buttonText": "#000000",
