@@ -1,0 +1,84 @@
+{
+    "label": "Porcelain",
+    "colors": {
+        "background": "#ffffff",
+        "foreground": "#172554",
+        "muted": [148, 163, 184, 1],
+        "surface": [248, 250, 252, 1],
+        "surface2": [241, 245, 249, 1],
+        "surfaceAccent": [219, 234, 254, 1],
+        "surfaceBorder": [226, 232, 240, 1],
+        "inputBackground": [255, 255, 255, 1],
+        "inputBorder": [203, 213, 225, 1],
+        "inputPlaceholder": [148, 163, 184, 1],
+        "focus": [37, 99, 235, 0.6],
+        "accent": [29, 78, 216, 1],
+        "link": "#2563eb",
+        "linkHover": "#1d4ed8",
+        "buttonText": "#ffffff",
+        "brand1": "#1e40af",
+        "brand2": "#1d4ed8",
+        "brand3": "#2563eb",
+        "ambient1": [191, 219, 254, 0.5],
+        "ambient2": [147, 197, 253, 0.5],
+        "ambient3": [96, 165, 250, 0.5],
+        "float2_1": [191, 219, 254, 0.5],
+        "float2_2": [147, 197, 253, 0.5],
+        "float2_3": [96, 165, 250, 0.5],
+        "float3_1": [191, 219, 254, 0.5],
+        "float3_2": [147, 197, 253, 0.5],
+        "float3_3": [96, 165, 250, 0.5],
+        "success": "#15803d",
+        "warning": "#b45309",
+        "error": "#b91c1c"
+    },
+    "disableGradients": true,
+    "palette": {
+        "background": "background",
+        "foreground": "foreground",
+        "muted": "muted",
+        "surface": "surface",
+        "surface2": "surface2",
+        "surfaceAccent": "surfaceAccent",
+        "surfaceBorder": "surfaceBorder",
+        "inputBackground": "inputBackground",
+        "inputBorder": "inputBorder",
+        "inputPlaceholder": "inputPlaceholder",
+        "focus": "focus",
+        "accent": "accent",
+        "link": "link",
+        "linkHover": "linkHover",
+        "buttonText": "buttonText"
+    },
+    "gradients": {
+        "brand": {
+            "direction": "135deg",
+            "stops": ["brand1 0%", "brand2 50%", "brand3 100%"]
+        },
+        "ambient": {
+            "angle": "120deg",
+            "stops": ["ambient1", "ambient2", "ambient3"]
+        },
+        "floating": [
+            {
+                "direction": "135deg",
+                "stops": ["ambient1", "ambient2", "ambient3"]
+            },
+            {
+                "direction": "135deg",
+                "stops": ["float2_1", "float2_2", "float2_3"]
+            },
+            {
+                "direction": "135deg",
+                "stops": ["float3_1", "float3_2", "float3_3"]
+            }
+        ]
+    },
+    "shadows": {
+        "card": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+        "cardInner": "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
+        "button": "0 4px 6px -1px rgba(37, 99, 235, 0.3)",
+        "buttonHover": "0 10px 15px -3px rgba(37, 99, 235, 0.4)",
+        "buttonActive": "0 4px 6px -1px rgba(37, 99, 235, 0.2)"
+    }
+}

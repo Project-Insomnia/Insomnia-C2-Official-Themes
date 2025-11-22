@@ -1,0 +1,84 @@
+{
+    "label": "Retro Terminal 1990 Green",
+    "colors": {
+        "background": "#000a00",
+        "foreground": "#00ff00",
+        "muted": [0, 255, 0, 0.6],
+        "surface": [0, 17, 0, 1],
+        "surface2": [0, 26, 0, 1],
+        "surfaceAccent": [0, 77, 0, 1],
+        "surfaceBorder": [0, 255, 0, 0.5],
+        "inputBackground": [0, 0, 0, 1],
+        "inputBorder": [0, 255, 0, 1],
+        "inputPlaceholder": [0, 255, 0, 0.4],
+        "focus": [50, 255, 50, 1],
+        "accent": [0, 255, 0, 1],
+        "link": "#00ff00",
+        "linkHover": "#66ff66",
+        "buttonText": "#000000",
+        "brand1": "#00ff00",
+        "brand2": "#00cc00",
+        "brand3": "#009900",
+        "ambient1": [0, 255, 0, 0.1],
+        "ambient2": [0, 255, 0, 0.1],
+        "ambient3": [0, 255, 0, 0.1],
+        "float2_1": [0, 255, 0, 0.1],
+        "float2_2": [0, 255, 0, 0.1],
+        "float2_3": [0, 255, 0, 0.1],
+        "float3_1": [0, 255, 0, 0.1],
+        "float3_2": [0, 255, 0, 0.1],
+        "float3_3": [0, 255, 0, 0.1],
+        "success": "#00ff00",
+        "warning": "#00ff00",
+        "error": "#00ff00"
+    },
+    "disableGradients": true,
+    "palette": {
+        "background": "background",
+        "foreground": "foreground",
+        "muted": "muted",
+        "surface": "surface",
+        "surface2": "surface2",
+        "surfaceAccent": "surfaceAccent",
+        "surfaceBorder": "surfaceBorder",
+        "inputBackground": "inputBackground",
+        "inputBorder": "inputBorder",
+        "inputPlaceholder": "inputPlaceholder",
+        "focus": "focus",
+        "accent": "accent",
+        "link": "link",
+        "linkHover": "linkHover",
+        "buttonText": "buttonText"
+    },
+    "gradients": {
+        "brand": {
+            "direction": "135deg",
+            "stops": ["brand1 0%", "brand2 50%", "brand3 100%"]
+        },
+        "ambient": {
+            "angle": "120deg",
+            "stops": ["ambient1", "ambient2", "ambient3"]
+        },
+        "floating": [
+            {
+                "direction": "135deg",
+                "stops": ["ambient1", "ambient2", "ambient3"]
+            },
+            {
+                "direction": "135deg",
+                "stops": ["float2_1", "float2_2", "float2_3"]
+            },
+            {
+                "direction": "135deg",
+                "stops": ["float3_1", "float3_2", "float3_3"]
+            }
+        ]
+    },
+    "shadows": {
+        "card": "0 0 0 1px #00ff00",
+        "cardInner": "none",
+        "button": "0 0 0 1px #00ff00",
+        "buttonHover": "0 0 10px #00ff00",
+        "buttonActive": "inset 0 0 5px #00ff00"
+    }
+}
