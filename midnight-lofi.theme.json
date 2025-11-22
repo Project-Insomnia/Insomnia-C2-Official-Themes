@@ -1,0 +1,84 @@
+{
+    "label": "Midnight Lofi",
+    "disableGradients": true,
+    "colors": {
+        "background": "#191724",
+        "foreground": "#e0def4",
+        "muted": [144, 140, 170, 0.6],
+        "surface": [38, 35, 58, 1],
+        "surface2": [31, 29, 46, 1],
+        "surfaceAccent": [235, 111, 146, 0.1],
+        "surfaceBorder": [255, 255, 255, 0.05],
+        "inputBackground": [31, 29, 46, 0.8],
+        "inputBorder": [255, 255, 255, 0.1],
+        "inputPlaceholder": [144, 140, 170, 0.5],
+        "focus": [235, 111, 146, 0.5],
+        "accent": [235, 111, 146, 1],
+        "link": "#c4a7e7",
+        "linkHover": "#eb6f92",
+        "buttonText": "#191724",
+        "brand1": "#eb6f92",
+        "brand2": "#c4a7e7",
+        "brand3": "#9ccfd8",
+        "ambient1": [235, 111, 146, 0.1],
+        "ambient2": [196, 167, 231, 0.1],
+        "ambient3": [156, 207, 216, 0.1],
+        "float2_1": [235, 111, 146, 0.1],
+        "float2_2": [196, 167, 231, 0.1],
+        "float2_3": [156, 207, 216, 0.1],
+        "float3_1": [235, 111, 146, 0.1],
+        "float3_2": [196, 167, 231, 0.1],
+        "float3_3": [156, 207, 216, 0.1],
+        "success": "#9ccfd8",
+        "warning": "#f6c177",
+        "error": "#eb6f92"
+    },
+    "palette": {
+        "background": "background",
+        "foreground": "foreground",
+        "muted": "muted",
+        "surface": "surface",
+        "surface2": "surface2",
+        "surfaceAccent": "surfaceAccent",
+        "surfaceBorder": "surfaceBorder",
+        "inputBackground": "inputBackground",
+        "inputBorder": "inputBorder",
+        "inputPlaceholder": "inputPlaceholder",
+        "focus": "focus",
+        "accent": "accent",
+        "link": "link",
+        "linkHover": "linkHover",
+        "buttonText": "buttonText"
+    },
+    "gradients": {
+        "brand": {
+            "direction": "135deg",
+            "stops": ["brand1 0%", "brand2 50%", "brand3 100%"]
+        },
+        "ambient": {
+            "angle": "120deg",
+            "stops": ["ambient1", "ambient2", "ambient3"]
+        },
+        "floating": [
+            {
+                "direction": "135deg",
+                "stops": ["ambient1", "ambient2", "ambient3"]
+            },
+            {
+                "direction": "135deg",
+                "stops": ["float2_1", "float2_2", "float2_3"]
+            },
+            {
+                "direction": "135deg",
+                "stops": ["float3_1", "float3_2", "float3_3"]
+            }
+        ]
+    },
+    "shadows": {
+        "card": "0 8px 24px rgba(0, 0, 0, 0.4)",
+        "cardInner": "inset 0 1px 0 rgba(255, 255, 255, 0.05)",
+        "button": "0 4px 12px rgba(235, 111, 146, 0.2)",
+        "buttonHover": "0 6px 16px rgba(235, 111, 146, 0.3)",
+        "buttonActive": "0 2px 8px rgba(235, 111, 146, 0.2)"
+    }
+}

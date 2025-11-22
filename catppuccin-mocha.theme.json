@@ -1,0 +1,57 @@
+{
+  "label": "Catppuccin Mocha",
+  "colors": {
+    "base": [30, 30, 46],
+    "text": [205, 214, 244],
+    "sky": [137, 220, 235],
+    "green": [166, 227, 161],
+    "yellow": [249, 226, 175],
+    "red": [243, 139, 168],
+    "rosewater": [245, 224, 220],
+    "lavender": [180, 190, 254],
+    "blue": [137, 180, 250],
+    "surface0": [49, 50, 68],
+    "surface2": [88, 91, 112],
+    "success": [166, 227, 161],
+    "warning": [249, 226, 175],
+    "error": [243, 139, 168]
+  },
+  "palette": {
+    "background": "base",
+    "foreground": "text",
+    "muted": "surface2",
+    "surface": "surface0",
+    "surfaceAccent": "surface2",
+    "surfaceBorder": "surface2",
+    "inputBackground": "surface0",
+    "inputBorder": "surface2",
+    "inputPlaceholder": "surface2",
+    "focus": "sky",
+    "accent": "sky",
+    "link": "rosewater",
+    "linkHover": "lavender",
+    "buttonText": "text"
+  },
+  "gradients": {
+    "brand": {
+      "direction": "135deg",
+      "stops": ["blue 0%", "sky 50%", "lavender 100%"]
+    },
+    "ambient": {
+      "angle": "120deg",
+      "stops": ["green", "rosewater", "yellow"]
+    },
+    "floating": [
+      { "direction": "135deg", "stops": ["sky", "green", "rosewater"] },
+      { "direction": "135deg", "stops": ["blue", "lavender", "sky"] },
+      { "direction": "135deg", "stops": ["surface2", "sky", "green"] }
+    ]
+  },
+  "shadows": {
+    "card": "0 24px 60px rgba(0, 0, 0, 0.35)",
+    "cardInner": "inset 0 1px 0 rgba(255, 255, 255, 0.06)",
+    "button": "0 12px 28px rgba(137, 220, 235, 0.25)",
+    "buttonHover": "0 18px 36px rgba(137, 220, 235, 0.35)",
+    "buttonActive": "0 12px 26px rgba(137, 220, 235, 0.22)"
+  }
+}

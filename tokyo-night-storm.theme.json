@@ -1,0 +1,91 @@
+{
+    "label": "Tokyo Night Storm",
+    "disableGradients": true,
+    "colors": {
+        "background": "#24283B",
+        "foreground": "#A9B1D6",
+        "muted": "#9aa5ce",
+        "surface": [36, 40, 59, 0.92],
+        "surface2": [84, 92, 126, 0.98],
+        "surfaceAccent": [84, 92, 126, 0.22],
+        "surfaceBorder": [86, 95, 137, 0.45],
+
+        "inputBackground": [36, 40, 59, 0.96],
+        "inputBorder": [122, 162, 247, 0.45],
+        "inputPlaceholder": [84, 92, 126, 0.82],
+
+        "focus": [125, 207, 255, 0.75],
+        "accent": [122, 162, 247, 0.9],
+        "link": "#7AA2F7",
+        "linkHover": "#BB9AF7",
+        "buttonText": "#24283B",
+
+        "brand1": "#7AA2F7",
+        "brand2": "#BB9AF7",
+        "brand3": "#7DD0FF",
+
+        "ambient1": [122, 162, 247, 0.28],
+        "ambient2": [125, 207, 255, 0.26],
+        "ambient3": [247, 118, 142, 0.24],
+
+        "float2_1": [187, 154, 247, 0.26],
+        "float2_2": [255, 158, 100, 0.22],
+        "float2_3": [84, 92, 126, 0.2],
+
+        "float3_1": [158, 206, 106, 0.28],
+        "float3_2": [79, 214, 190, 0.24],
+        "float3_3": [224, 175, 104, 0.22],
+
+        "success": "#9ECE6A",
+        "warning": "#E0AF68",
+        "error": "#C53B53"
+    },
+    "palette": {
+        "background": "background",
+        "foreground": "foreground",
+        "muted": "muted",
+        "surface": "surface",
+        "surface2": "surface2",
+        "surfaceAccent": "surfaceAccent",
+        "surfaceBorder": "surfaceBorder",
+        "inputBackground": "inputBackground",
+        "inputBorder": "inputBorder",
+        "inputPlaceholder": "inputPlaceholder",
+        "focus": "focus",
+        "accent": "accent",
+        "link": "link",
+        "linkHover": "linkHover",
+        "buttonText": "buttonText"
+    },
+    "gradients": {
+        "brand": {
+            "direction": "135deg",
+            "stops": ["brand1 0%", "brand2 50%", "brand3 100%"]
+        },
+        "ambient": {
+            "angle": "120deg",
+            "stops": ["ambient1", "ambient2", "ambient3"]
+        },
+        "floating": [
+            {
+                "direction": "135deg",
+                "stops": ["ambient1", "ambient2", "ambient3"]
+            },
+            {
+                "direction": "135deg",
+                "stops": ["float2_1", "float2_2", "float2_3"]
+            },
+            {
+                "direction": "135deg",
+                "stops": ["float3_1", "float3_2", "float3_3"]
+            }
+        ]
+    },
+    "shadows": {
+        "card": "0 24px 60px rgba(0, 0, 0, 0.35)",
+        "cardInner": "inset 0 1px 0 rgba(255, 255, 255, 0.06)",
+        "button": "0 12px 28px rgba(122, 162, 247, 0.28)",
+        "buttonHover": "0 18px 36px rgba(122, 162, 247, 0.36)",
+        "buttonActive": "0 12px 26px rgba(122, 162, 247, 0.24)"
+    }
+}

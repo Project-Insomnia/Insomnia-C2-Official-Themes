@@ -1,0 +1,64 @@
+{
+    "label": "Rosé Pine Dawn",
+    "colors": {
+        "base": [250, 244, 237],
+        "surface": [255, 250, 243],
+        "surface2": [242, 233, 222],
+        "overlay": [242, 233, 222],
+        "muted": [152, 147, 165],
+        "subtle": [121, 117, 147],
+        "text": [87, 82, 121],
+        "love": [180, 99, 122],
+        "gold": [234, 157, 52],
+        "rose": [215, 130, 126],
+        "pine": [40, 105, 131],
+        "foam": [86, 148, 159],
+        "iris": [144, 122, 169],
+        "highlight_low": [244, 237, 232],
+        "highlight_med": [223, 218, 217],
+        "highlight_high": [206, 202, 205],
+        "success": [144, 169, 86],
+        "warning": [234, 157, 52],
+        "error": [180, 99, 122]
+    },
+    "disableGradients": true,
+    "palette": {
+        "background": "base",
+        "foreground": "text",
+        "muted": "muted",
+        "surface": "surface",
+        "surface2": "surface2",
+        "surfaceAccent": "overlay",
+        "surfaceBorder": "rgba(87, 82, 121, 0.16)",
+        "inputBackground": "surface",
+        "inputBorder": "highlight_med",
+        "inputPlaceholder": "subtle",
+        "focus": "foam",
+        "accent": "foam",
+        "link": "iris",
+        "linkHover": "rose",
+        "buttonText": "text"
+    },
+    "gradients": {
+        "brand": {
+            "direction": "135deg",
+            "stops": ["pine 0%", "foam 50%", "rose 100%"]
+        },
+        "ambient": {
+            "angle": "120deg",
+            "stops": ["foam", "rose", "gold"]
+        },
+        "floating": [
+            { "direction": "135deg", "stops": ["foam", "rose", "gold"] },
+            { "direction": "135deg", "stops": ["iris", "foam", "rose"] },
+            { "direction": "135deg", "stops": ["pine", "foam", "iris"] }
+        ]
+    },
+    "shadows": {
+        "card": "0 24px 60px rgba(0, 0, 0, 0.12)",
+        "cardInner": "inset 0 1px 0 rgba(0, 0, 0, 0.06)",
+        "button": "0 12px 28px rgba(0, 0, 0, 0.10)",
+        "buttonHover": "0 18px 36px rgba(0, 0, 0, 0.12)",
+        "buttonActive": "0 12px 26px rgba(0, 0, 0, 0.10)"
+    }
+}

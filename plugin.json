@@ -1,0 +1,10 @@
+{
+    "name": "Insomnia C2 Official Themes",
+    "version": "1.0.0",
+    "author": "Project Insomnia",
+    "type": "theme",
+    "content": {
+        "github_url": "https://github.com/Project-Insomnia/Insomnia-C2-Official-Themes",
+        "tags": ["official", "themes"]
+    }
+}

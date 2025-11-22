@@ -1,0 +1,74 @@
+{
+  "label": "Solar Flare",
+  "colors": {
+    "background": "#1a1026",
+    "foreground": "#fde68a",
+    "muted": [253, 230, 138, 0.75],
+    "surface": [76, 29, 149, 0.7],
+    "surface2": [88, 40, 165, 0.85],
+    "surfaceAccent": [68, 22, 126, 0.58],
+    "surfaceBorder": [253, 224, 71, 0.18],
+    "inputBackground": [46, 16, 72, 0.72],
+    "inputBorder": [253, 224, 71, 0.24],
+    "inputPlaceholder": [251, 191, 36, 0.6],
+    "focus": [253, 224, 71, 0.65],
+    "accent": [251, 191, 36, 0.9],
+    "link": "#facc15",
+    "linkHover": "#f97316",
+    "buttonText": "#1f2937",
+    "brand1": "#facc15",
+    "brand2": "#fb923c",
+    "brand3": "#f472b6",
+    "ambient1": [249, 115, 22, 0.35],
+    "ambient2": [250, 204, 21, 0.42],
+    "ambient3": [217, 70, 239, 0.36],
+    "float2_1": [251, 191, 36, 0.32],
+    "float2_2": [217, 70, 239, 0.28],
+    "float2_3": [236, 72, 153, 0.34],
+    "float3_1": [147, 51, 234, 0.3],
+    "float3_2": [59, 130, 246, 0.28],
+    "float3_3": [125, 211, 252, 0.32],
+    "success": "#10b981",
+    "warning": "#f59e0b",
+    "error": "#ef4444"
+  },
+  "palette": {
+    "background": "background",
+    "foreground": "foreground",
+    "muted": "muted",
+    "surface": "surface",
+    "surface2": "surface2",
+    "surfaceAccent": "surfaceAccent",
+    "surfaceBorder": "surfaceBorder",
+    "inputBackground": "inputBackground",
+    "inputBorder": "inputBorder",
+    "inputPlaceholder": "inputPlaceholder",
+    "focus": "focus",
+    "accent": "accent",
+    "link": "link",
+    "linkHover": "linkHover",
+    "buttonText": "buttonText"
+  },
+  "gradients": {
+    "brand": {
+      "direction": "135deg",
+      "stops": ["brand1 0%", "brand2 50%", "brand3 100%"]
+    },
+    "ambient": {
+      "angle": "100deg",
+      "stops": ["ambient1", "ambient2", "ambient3"]
+    },
+    "floating": [
+      { "direction": "135deg", "stops": ["ambient1", "ambient2", "ambient3"] },
+      { "direction": "135deg", "stops": ["float2_1", "float2_2", "float2_3"] },
+      { "direction": "135deg", "stops": ["float3_1", "float3_2", "float3_3"] }
+    ]
+  },
+  "shadows": {
+    "card": "0 24px 60px rgba(148, 58, 213, 0.26)",
+    "cardInner": "inset 0 1px 0 rgba(253, 224, 71, 0.12)",
+    "button": "0 12px 28px rgba(250, 204, 21, 0.25)",
+    "buttonHover": "0 18px 36px rgba(249, 115, 22, 0.35)",
+    "buttonActive": "0 12px 26px rgba(249, 115, 22, 0.28)"
+  }
+}
