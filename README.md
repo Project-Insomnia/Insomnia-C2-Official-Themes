@@ -14,7 +14,9 @@ Official themes for Insomnia C2 framework
 - Kanagawa Dragon
 - Midnight Lofi
 - Retro Terminal 1990
+- Retro Terminal 1990 Green
 - Polaroid Light
+- Porcelain
 - Rose Pine Dawn
 - Simple Dark
 - Simple Light
