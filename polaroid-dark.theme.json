@@ -1,0 +1,84 @@
+{
+    "label": "Polaroid Dark",
+    "colors": {
+        "background": "#111111",
+        "foreground": "#eeeeee",
+        "muted": "#666666",
+        "surface": "#1a1a1a",
+        "surface2": "#222222",
+        "surfaceAccent": "#333333",
+        "surfaceBorder": "#444444",
+        "inputBackground": "#000000",
+        "inputBorder": "#333333",
+        "inputPlaceholder": "#555555",
+        "focus": "#007aff",
+        "accent": "#ff3b30",
+        "link": "#007aff",
+        "linkHover": "#ff9500",
+        "buttonText": "#ffffff",
+        "brand1": "#ff3b30",
+        "brand2": "#ff9500",
+        "brand3": "#ffcc00",
+        "ambient1": "#4cd964",
+        "ambient2": "#007aff",
+        "ambient3": "#ff3b30",
+        "float2_1": "#ff9500",
+        "float2_2": "#ffcc00",
+        "float2_3": "#4cd964",
+        "float3_1": "#007aff",
+        "float3_2": "#ff3b30",
+        "float3_3": "#ff9500",
+        "success": "#4cd964",
+        "warning": "#ffcc00",
+        "error": "#ff3b30"
+    },
+    "disableGradients": true,
+    "palette": {
+        "background": "background",
+        "foreground": "foreground",
+        "muted": "muted",
+        "surface": "surface",
+        "surface2": "surface2",
+        "surfaceAccent": "surfaceAccent",
+        "surfaceBorder": "surfaceBorder",
+        "inputBackground": "inputBackground",
+        "inputBorder": "inputBorder",
+        "inputPlaceholder": "inputPlaceholder",
+        "focus": "focus",
+        "accent": "accent",
+        "link": "link",
+        "linkHover": "linkHover",
+        "buttonText": "buttonText"
+    },
+    "gradients": {
+        "brand": {
+            "direction": "135deg",
+            "stops": ["brand1 0%", "brand2 50%", "brand3 100%"]
+        },
+        "ambient": {
+            "angle": "120deg",
+            "stops": ["ambient1", "ambient2", "ambient3"]
+        },
+        "floating": [
+            {
+                "direction": "135deg",
+                "stops": ["ambient1", "ambient2", "ambient3"]
+            },
+            {
+                "direction": "135deg",
+                "stops": ["float2_1", "float2_2", "float2_3"]
+            },
+            {
+                "direction": "135deg",
+                "stops": ["float3_1", "float3_2", "float3_3"]
+            }
+        ]
+    },
+    "shadows": {
+        "card": "0 24px 60px rgba(0, 0, 0, 0.5)",
+        "cardInner": "inset 0 1px 0 rgba(255, 255, 255, 0.05)",
+        "button": "0 12px 28px rgba(0, 0, 0, 0.4)",
+        "buttonHover": "0 18px 36px rgba(0, 0, 0, 0.5)",
+        "buttonActive": "0 12px 26px rgba(0, 0, 0, 0.4)"
+    }
+}

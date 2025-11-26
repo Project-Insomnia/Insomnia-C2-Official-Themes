@@ -1,0 +1,84 @@
+{
+    "label": "Katana Zen",
+    "colors": {
+        "background": "#e8e0c5",
+        "foreground": "#2b2b2b",
+        "muted": "#7a7260",
+        "surface": "#dccfb0",
+        "surface2": "#d4c6a0",
+        "surfaceAccent": "#cbb688",
+        "surfaceBorder": "#b0a078",
+        "inputBackground": "#f0eadd",
+        "inputBorder": "#b0a078",
+        "inputPlaceholder": "#777777",
+        "focus": "#d45d79",
+        "accent": "#d45d79",
+        "link": "#8b4513",
+        "linkHover": "#d45d79",
+        "buttonText": "#ffffff",
+        "brand1": "#d45d79",
+        "brand2": "#e68a9f",
+        "brand3": "#8b4513",
+        "ambient1": "#556b2f",
+        "ambient2": "#d45d79",
+        "ambient3": "#8b4513",
+        "float2_1": "#d45d79",
+        "float2_2": "#e68a9f",
+        "float2_3": "#556b2f",
+        "float3_1": "#8b4513",
+        "float3_2": "#d45d79",
+        "float3_3": "#e68a9f",
+        "success": "#556b2f",
+        "warning": "#d4a017",
+        "error": "#8b0000"
+    },
+    "disableGradients": true,
+    "palette": {
+        "background": "background",
+        "foreground": "foreground",
+        "muted": "muted",
+        "surface": "surface",
+        "surface2": "surface2",
+        "surfaceAccent": "surfaceAccent",
+        "surfaceBorder": "surfaceBorder",
+        "inputBackground": "inputBackground",
+        "inputBorder": "inputBorder",
+        "inputPlaceholder": "inputPlaceholder",
+        "focus": "focus",
+        "accent": "accent",
+        "link": "link",
+        "linkHover": "linkHover",
+        "buttonText": "buttonText"
+    },
+    "gradients": {
+        "brand": {
+            "direction": "135deg",
+            "stops": ["brand1 0%", "brand2 50%", "brand3 100%"]
+        },
+        "ambient": {
+            "angle": "120deg",
+            "stops": ["ambient1", "ambient2", "ambient3"]
+        },
+        "floating": [
+            {
+                "direction": "135deg",
+                "stops": ["ambient1", "ambient2", "ambient3"]
+            },
+            {
+                "direction": "135deg",
+                "stops": ["float2_1", "float2_2", "float2_3"]
+            },
+            {
+                "direction": "135deg",
+                "stops": ["float3_1", "float3_2", "float3_3"]
+            }
+        ]
+    },
+    "shadows": {
+        "card": "0 24px 60px rgba(43, 43, 43, 0.15)",
+        "cardInner": "inset 0 1px 0 rgba(255, 255, 255, 0.2)",
+        "button": "0 12px 28px rgba(212, 93, 121, 0.3)",
+        "buttonHover": "0 18px 36px rgba(212, 93, 121, 0.4)",
+        "buttonActive": "0 12px 26px rgba(212, 93, 121, 0.28)"
+    }
+}
